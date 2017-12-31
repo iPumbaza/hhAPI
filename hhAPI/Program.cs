@@ -22,7 +22,7 @@ namespace hhAPI
 
     class HhAPI
     {
-        public string token = "QOU3Q244MPPSQ78Q79V2E5LRGQQFDBSIUF6CEOF9A60M9LQ988CMSH19GTFIV4K1";//expired_at 2018-01-02T18:38:35+0300
+        public string token = "";//expired_at 2018-01-02T18:38:35+0300
         public string url = "https://api.hh.ru/";
         public string query = "vacancies?text=c%23+junior&area=1";//"vacancies"+ /*WebUtility.UrlEncode(*/"?"/*)*/+"area"+ WebUtility.UrlEncode("=")+"1"+ WebUtility.UrlEncode("&")+"text"+ WebUtility.UrlEncode("=")+"c"+ WebUtility.UrlEncode("#")+"%20junior";
         public string GetVacancies()
